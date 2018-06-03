@@ -761,7 +761,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .tailoring-image {
     width: 290px;
   }
