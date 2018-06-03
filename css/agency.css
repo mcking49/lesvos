@@ -229,6 +229,10 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
+.shop-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
