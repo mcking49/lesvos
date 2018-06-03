@@ -1,0 +1,12 @@
+.col-md-4{
+	text-align: center;
+}
+.tailoring-image{
+	width: 350px;
+	@media(max-width: 768px) {
+		width: 230px;
+	}
+	@media(max-width: 375px) {
+		width: 290px;
+	}
+}
