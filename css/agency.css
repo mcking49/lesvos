@@ -710,3 +710,43 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.circle-image {
+  height: 400px;
+}
+
+@media (max-width: 768px) {
+  .circle-image {
+    height: 300px;
+  }
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+.tailoring-image {
+  width: 350px;
+}
+
+@media (max-width: 768px) {
+  .tailoring-image {
+    width: 230px;
+  }
+}
+
+@media (max-width: 375px) {
+  .tailoring-image {
+    width: 290px;
+  }
+}
+
+.grid-image {
+  height: 350px;
+}
+
+@media (max-width: 768px) {
+  .grid-image {
+    height: 200px;
+  }
+}
