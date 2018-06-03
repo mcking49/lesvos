@@ -233,6 +233,32 @@ header.masthead .intro-text .intro-heading {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.section-subheading {
+  margin-bottom: 20px !important;
+}
+
+.lesvos {
+  margin-bottom: 40px;
+}
+
+.lesvos .map-marker, .lesvos .email-icon, .lesvos .phone-icon {
+  float: left;
+  padding-right: 10px;
+}
+
+.modern {
+  text-align: right;
+}
+
+.modern .map-marker, .modern .email-icon, .modern .phone-icon {
+  float: right;
+  padding-left: 10px;
+}
+
+.map {
+  padding: 0 !important;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
