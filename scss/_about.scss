@@ -8,3 +8,29 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
+
+.section-subheading {
+  margin-bottom: 20px !important;
+}
+
+.lesvos {
+  margin-bottom: 40px;
+  
+  .map-marker, .email-icon, .phone-icon {
+    float: left;
+    padding-right: 10px;
+  }
+}
+
+.modern {
+  text-align: right;
+
+  .map-marker, .email-icon, .phone-icon {
+    float: right;
+    padding-left: 10px;
+  }
+}
+
+.map {
+  padding: 0 !important;
+}
