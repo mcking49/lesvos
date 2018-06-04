@@ -15,6 +15,8 @@
 
 .lesvos {
   margin-bottom: 40px;
+  display: flex;
+  flex-flow: row wrap;
   
   .map-marker, .email-icon, .phone-icon {
     float: left;
@@ -33,4 +35,30 @@
 
 .map {
   padding: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .lesvos {
+    flex-direction: column;
+  }
+
+  .lesvos-map {
+    order: 2;
+  }
+
+  .lesvos-details {
+    order: 1;
+  }
+
+  .modern {
+    text-align: left;
+
+    .map-marker, .email-icon, .phone-icon {
+      float: left;
+      padding-right: 10px;
+      padding-left: 0;
+    }
+  }
+
+
 }
