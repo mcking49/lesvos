@@ -1,0 +1,6 @@
+.circle-image {
+	height: 400px;
+	@media(max-width: 768px) {
+		height: 300px;
+	}
+}
