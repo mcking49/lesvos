@@ -1,0 +1,64 @@
+// Styling for the services section
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+.shop-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.section-subheading {
+  margin-bottom: 20px !important;
+}
+
+.lesvos {
+  margin-bottom: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  
+  .map-marker, .email-icon, .phone-icon {
+    float: left;
+    padding-right: 10px;
+  }
+}
+
+.modern {
+  text-align: right;
+
+  .map-marker, .email-icon, .phone-icon {
+    float: right;
+    padding-left: 10px;
+  }
+}
+
+.map {
+  padding: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .lesvos {
+    flex-direction: column;
+  }
+
+  .lesvos-map {
+    order: 2;
+  }
+
+  .lesvos-details {
+    order: 1;
+  }
+
+  .modern {
+    text-align: left;
+
+    .map-marker, .email-icon, .phone-icon {
+      float: left;
+      padding-right: 10px;
+      padding-left: 0;
+    }
+  }
+
+
+}
